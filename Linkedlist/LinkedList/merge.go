@@ -10,6 +10,7 @@ func (nodelist1 *NodeList) Mergetwolinkedlists(nodelist2 *NodeList) {
 			head1 = head1.nextnode
 		}
 		head1.nextnode = nodelist2.Head
+		Logger.Debug("two linked lists merged successfully!")
 	}
 
 }
